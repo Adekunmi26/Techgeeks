@@ -1,0 +1,51 @@
+ body{
+    margin: 0;
+    background-image: url('skydiving.jfif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ 
+  .image{
+    width: 30px;
+    height: 30px;
+    margin: 15px 0 0 100px;
+    border-radius: 50%;
+ }
+
+  #title{
+    color: rgb(138, 80, 125);
+    font-weight: 900;
+    margin: -27px 0 0 140px;
+  }
+    .lists{
+        display: flex;
+        float: right;
+        list-style: none;
+        margin: -29px 24px 0 0;
+    }
+    .lists li{
+        padding: 10px;
+        color: rgb(138, 80, 125);
+    }
+    
+    .desc{
+        text-align: center;
+        font-size: 65px;
+        color: rgb(138, 80, 125);
+    }
+
+    button{
+        color: black;
+        background-color:rgb(138, 80, 125) ;
+        border: none;
+        height: 50px;
+        width: 130px;
+        border-radius: 5px;
+        font-size: 20px;
+        margin: 0 0 0 53rem;
+    }
+
+    button:hover{
+        color: white;
+        background-color:rgba(71, 2, 56, 0.877) ;
+    }
